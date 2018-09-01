@@ -14,7 +14,7 @@ export class DetailsPage  implements OnInit{
   }
 
   ngOnInit() {
-    console.log("data ", this.passedObj)
+    //console.log("data ", this.passedObj)
     this.passedObj = this.navParams.get('data');
   }
 
